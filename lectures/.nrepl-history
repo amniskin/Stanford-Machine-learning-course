@@ -1,0 +1,20 @@
+(+ 1 2)
+'(+ 1 2)
+'Math/PI
+'hasdfpojwaef
+Math/PI
+(def type 'rect)
+type
+(if (= type 'rect) 3 5)
+(def add '+)
+add
+(eval (add 3 4))
+(eval '(add 3 4))
+(eval '(+ 3 4))
+(eval "(+ 3 4)")
+(add 3 4)
+(def add +)
+(add 3 4)
+(def add '+)
+((eval add) 3 4)
+exit
